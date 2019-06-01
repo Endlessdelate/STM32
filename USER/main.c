@@ -11,10 +11,10 @@ int main()
     {
         GPIO_SetBits(GPIOA,GPIO_Pin_5);
         GPIO_SetBits(GPIOA,GPIO_Pin_6);
-        delay_ms(500);
+        delay_ms(400);
         GPIO_ResetBits(GPIOA,GPIO_Pin_5);
         GPIO_ResetBits(GPIOA,GPIO_Pin_6);
-        delay_ms(500);
+        delay_ms(400);
     }        
 }
 
